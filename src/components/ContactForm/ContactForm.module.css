@@ -1,0 +1,42 @@
+.formContainer {
+    margin-bottom: 20px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.errorMessage {
+    color: #e63946;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.addButton {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.addButton:hover {
+    background-color: #43a047;
+}
